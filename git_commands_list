@@ -1,0 +1,14 @@
+#Cheatsheet by Nova_tago
+
+
+Git commands
+q -> unstuck cursor/ let me type again key
+git branch -> lists all branches
+git branch -D moma -> deletes branch called “moma”
+git checkout master -> switch to master branch
+git branch unordered-list -> create a branch called “unordered-list”
+git checkout unordered-list -> switch to unordered-list branch
+git merge unordered-list -> merges “unordered-list” branch with master (if in master branch)
+git add filename -> adds the file with the name “filename” to the staging area 
+git commit -m “notes” -> commits the changes to the repository with the notes for the commit from the quotations
+git log -> prints the commits and their notes
