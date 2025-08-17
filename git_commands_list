@@ -1,14 +1,22 @@
 #Cheatsheet by Nova_tago
 
 
-Git commands
-q -> unstuck cursor/ let me type again key
-git branch -> lists all branches
-git branch -D moma -> deletes branch called “moma”
-git checkout master -> switch to master branch
-git branch unordered-list -> create a branch called “unordered-list”
-git checkout unordered-list -> switch to unordered-list branch
-git merge unordered-list -> merges “unordered-list” branch with master (if in master branch)
-git add filename -> adds the file with the name “filename” to the staging area 
-git commit -m “notes” -> commits the changes to the repository with the notes for the commit from the quotations
-git log -> prints the commits and their notes
+				##Git commands
+q					-> unstuck cursor/ let me type again key
+git branch				-> lists all branches
+git branch -D moma			-> deletes branch called “moma”
+git checkout master			-> switch to master branch
+git branch unordered-list		-> create a branch called “unordered-list”
+git checkout unordered-list		-> switch to unordered-list branch
+git merge unordered-list		-> merges “unordered-list” branch with master (if in master branch)
+git add filename			-> adds the file with the name “filename” to the staging area 
+git commit -m “notes”			-> commits the changes to the repository with the notes for the commit from the quotations
+git log					-> prints the commits and their notes
+git clone remote_location clone_name	-> clones the remote repository and saves it to a local one
+git remote -v				-> displays the remote git projects as a list
+git fetch				-> easy way to see if changes have been made to the remote repository (does not merge changes)
+git add filename			-> takes the files with "filename" and adds it to the staging area
+git commit -m "text"			-> commits the changes of all files in the staging area to the current repository with the comments "text" saved for future reference
+git push				-> takes all of the committed changes from the local repository and saves to the remote repository 
+git push origin <your_branch_name>	-> similar to above but expliciltly mentions which remote repository and local repository are used
+
