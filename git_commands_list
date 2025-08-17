@@ -2,6 +2,8 @@
 
 
 				##Git commands
+pwd					-> print working directory (shows file path)
+ls					-> list all contents in folder
 q					-> unstuck cursor/ let me type again key
 git branch				-> lists all branches
 git branch -D moma			-> deletes branch called “moma”
