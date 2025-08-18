@@ -3,7 +3,13 @@
 
 				##Git commands
 pwd					-> print working directory (shows file path)
-ls					-> list all contents in folder
+ls					-> lists contents in folder
+ls -a					-> lists all contents including hidden files
+ls -l					-> lists all contents in a long format, as well as file permissions
+ls -t					-> orders files and directories by the time they were modified
+cat file.txt				-> displays the contents of the file.txt
+cp ../file ./				-> copies "file" from up one directory to current directory
+mv ./file ../file2			-> movies "file" up one directory and changes the name to "file2"	
 q					-> unstuck cursor/ let me type again key
 git branch				-> lists all branches
 git branch -D moma			-> deletes branch called “moma”
