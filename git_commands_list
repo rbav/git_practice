@@ -1,7 +1,8 @@
 #Cheatsheet by Nova_tago
 
 
-				##Git commands
+				
+				##Bash commands
 pwd					-> print working directory (shows file path)
 ls					-> lists contents in folder
 ls -a					-> lists all contents including hidden files
@@ -9,7 +10,24 @@ ls -l					-> lists all contents in a long format, as well as file permissions
 ls -t					-> orders files and directories by the time they were modified
 cat file.txt				-> displays the contents of the file.txt
 cp ../file ./				-> copies "file" from up one directory to current directory
+co z* ./nope				-> copies all files with a "z" in their anme and moves it to a folder called "nope"
 mv ./file ../file2			-> movies "file" up one directory and changes the name to "file2"	
+rm nope					-> remove/delete file with name "nope"
+rm -r nope				-> remove/delete directory/folder with the name "nope"
+cat glaciers.txt > rivers.txt		-> replaces all the text of "rivers.txt" with the text of "glaciers.txt"
+cat glaciers.txt >> rivers.txt		-> adds the text of "glaciers.txt" to the file "rivers.txt"
+cat volcanoes.txt | wc			-> displays the number of lines, words, and characters from the file "volcanoes.txt"
+sort lakes.txt > sorted-lakes.txt	-> sorts alphabetically the contents of the file "lakes" and saves the contents to a new file called "sorted-lakes.txt"
+sort deserts.txt | uniq > sorted-d.txt	-> sorts the contents of deserts.txt and removes any duplicates, then saves the contents to a file called "sorted-d.txt"
+grep Mount mountains.txt		-> displays any of the contents from the file "mountains.txt" that contains the characters "Mount"
+grep -i Mount mountains.txt		-> removes case sensitivity to above grep command
+
+
+
+
+
+
+				##git commands
 q					-> unstuck cursor/ let me type again key
 git branch				-> lists all branches
 git branch -D moma			-> deletes branch called “moma”
